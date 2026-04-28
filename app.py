@@ -508,7 +508,7 @@ class FF_CLient():
             ResTarT_BoT()    
 
     def GeT_LoGin_PorTs(self , JwT_ToKen , PayLoad):
-        self.UrL = 'https://clientbp.ggwhitehawk.com/GetLoginData'
+        self.UrL = 'https://clientbp.ggpolarbear.com/GetLoginData'
         self.HeadErs = {
             'Expect': '100-continue',
             'Authorization': f'Bearer {JwT_ToKen}',
@@ -517,7 +517,7 @@ class FF_CLient():
             'ReleaseVersion': 'OB53',
             'Content-Type': 'application/x-www-form-urlencoded',
             'User-Agent': 'UnityPlayer/2022.3.47f1 (UnityWebRequest/1.0, libcurl/8.5.0-DEV)',
-            'Host': 'clientbp.ggwhitehawk.com',
+            'Host': 'clientbp.ggpolarbear.com',
             'Connection': 'close',
             'Accept-Encoding': 'gzip'
         }
